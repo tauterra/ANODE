@@ -17,8 +17,12 @@
 				<Item Name="LVCOOOP.mnu" Type="Document" URL="../../LVCOOOP/resources/LVCOOOP.mnu"/>
 			</Item>
 			<Item Name="Util" Type="Folder">
+				<Item Name="Map" Type="Folder">
+					<Item Name="Config File - Read Config File.vi" Type="VI" URL="../../LVCOOOP/Util/Config File - Read Config File.vi"/>
+					<Item Name="Get From Map As Type.vim" Type="VI" URL="../../LVCOOOP/Util/Get From Map As Type.vim"/>
+					<Item Name="Get Map Keys.vim" Type="VI" URL="../../LVCOOOP/Util/Get Map Keys.vim"/>
+				</Item>
 				<Item Name="Clear Errors - Ext.vi" Type="VI" URL="../../LVCOOOP/Util/Clear Errors - Ext.vi"/>
-				<Item Name="Get From Map As Type.vim" Type="VI" URL="../../LVCOOOP/Util/Get From Map As Type.vim"/>
 				<Item Name="Open VI Reference.vim" Type="VI" URL="../../LVCOOOP/Util/Open VI Reference.vim"/>
 				<Item Name="Timestamp or now.vi" Type="VI" URL="../../LVCOOOP/Util/Timestamp or now.vi"/>
 			</Item>
@@ -34,11 +38,17 @@
 		<Item Name="LVCOOOP Tests.lvlib" Type="Library" URL="../LVCOOOP Tests.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Assert Error Cluster Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Error Cluster Type.vim"/>
 				<Item Name="Assert Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Integer Type.vim"/>
 				<Item Name="Assert Real Floating-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Real Floating-Point Numeric Type.vim"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="Set Difference.vim" Type="VI" URL="/&lt;vilib&gt;/set operations/Set Difference.vim"/>
 				<Item Name="Set Union.vim" Type="VI" URL="/&lt;vilib&gt;/set operations/Set Union.vim"/>

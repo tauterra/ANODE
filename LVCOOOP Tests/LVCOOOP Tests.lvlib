@@ -19,6 +19,8 @@
 	</Item>
 	<Item Name="Util" Type="Folder">
 		<Item Name="test get from map as type.vi" Type="VI" URL="../Util/test get from map as type.vi"/>
+		<Item Name="test map utils.vi" Type="VI" URL="../Util/test map utils.vi"/>
+		<Item Name="test_config.ini" Type="Document" URL="../Util/test_config.ini"/>
 	</Item>
 	<Item Name="State Machine API.lvlib" Type="Library" URL="../State Machine API/State Machine API.lvlib"/>
 </Library>
