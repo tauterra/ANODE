@@ -24,6 +24,7 @@
 					<Item Name="Get Map Keys.vim" Type="VI" URL="../LVCOOOP/Util/Get Map Keys.vim"/>
 				</Item>
 				<Item Name="Clear Errors - Ext.vi" Type="VI" URL="../LVCOOOP/Util/Clear Errors - Ext.vi"/>
+				<Item Name="LVOOP DVR Access Snippet.vi" Type="VI" URL="../LVCOOOP/Util/LVOOP DVR Access Snippet.vi"/>
 				<Item Name="Open VI Reference.vim" Type="VI" URL="../LVCOOOP/Util/Open VI Reference.vim"/>
 				<Item Name="String Join.vi" Type="VI" URL="../LVCOOOP/Util/String Join.vi"/>
 				<Item Name="Timestamp or now.vi" Type="VI" URL="../LVCOOOP/Util/Timestamp or now.vi"/>
