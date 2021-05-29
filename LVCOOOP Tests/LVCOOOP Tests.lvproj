@@ -13,9 +13,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="LVCOOP" Type="Folder">
-			<Item Name="license" Type="Folder">
-				<Item Name="license.txt" Type="Document" URL="../../license.txt"/>
-			</Item>
 			<Item Name="resources" Type="Folder">
 				<Item Name="LVCOOOP.mnu" Type="Document" URL="../../LVCOOOP/resources/LVCOOOP.mnu"/>
 			</Item>
