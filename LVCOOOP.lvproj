@@ -65,7 +65,6 @@
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LVCOOOP - user.lib LV2019 x86" Type="Source Distribution">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{CE85F7F9-8F9C-4CC2-BB52-CBF7E599880F}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">LVCOOOP - user.lib LV2019 x86</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
@@ -83,7 +82,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2AA1E9BD-0EBF-4EBC-830D-60BA555BE003}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">2</Property>
-				<Property Name="Bld_version.build" Type="Int">38</Property>
+				<Property Name="Bld_version.build" Type="Int">39</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">user.lib</Property>
@@ -93,7 +92,7 @@
 				<Property Name="Destination[1].path" Type="Path">user.lib/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToAppDir</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0AAE2AF3-0162-40BD-9F46-983721FC071A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2C07EC0F-BBA5-494E-AF1E-2D7759C13BAB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVCOOP Providers/Utility API/NIErrLog Log Provider.lvclass</Property>
