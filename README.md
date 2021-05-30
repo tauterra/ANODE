@@ -1,6 +1,6 @@
-# LV Common Objects for Object Oriented Programming (LVCOOP)
+# LV Common Objects for Object Oriented Programming (LVCOOOP)
 
-LVCOOP is a set of common objects that support building robust object oriented applications with LabVIEW(tm).
+LVCOOOP is a set of common objects that support building robust object oriented applications with LabVIEW(tm).
 
 ## Lookup API
 
@@ -19,8 +19,8 @@ The Utility API includes a generic Logger implementation. A LabVIEW queue-based 
 ### Building from source
 
 1) Clone this repository
-2) Edit the `LVCOOP - user.lib` source distribution to point to your `user.lib` directory
-3) Build the `LVCOOP - user.lib` source distribution
+2) Edit the `LVCOOOP - user.lib` source distribution to point to your `user.lib` directory
+3) Build the `LVCOOOP - user.lib` source distribution
 
 
 \* *LabVIEW is a trademark of National Instruments Corporation*
