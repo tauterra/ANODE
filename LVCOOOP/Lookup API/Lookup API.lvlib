@@ -46,7 +46,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	<Item Name="Services" Type="Folder">
 		<Item Name="Lookup Util" Type="Folder">
 			<Item Name="Add Lookup Event Listener Helper.vi" Type="VI" URL="../Services/Lookup Service/Add Lookup Event Listener Helper.vi"/>
-			<Item Name="Get Instances Helper.vi" Type="VI" URL="../Services/Lookup Service/Get Instances Helper.vi"/>
 		</Item>
 		<Item Name="Lookup Service.lvclass" Type="LVClass" URL="../Services/Lookup Service/Lookup Service.lvclass"/>
 	</Item>
