@@ -63,4 +63,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	<Item Name="Format Mermaid.js.vim" Type="VI" URL="../Format Mermaid.js.vim"/>
 	<Item Name="Actions Template.vit" Type="VI" URL="../Actions Template.vit"/>
 	<Item Name="Guards Template.vit" Type="VI" URL="../Guards Template.vit"/>
+	<Item Name="Enum Starter Helper.vi" Type="VI" URL="../Enum Starter Helper.vi"/>
+	<Item Name="State Machine Starter Helper.vi" Type="VI" URL="../State Machine Starter Helper.vi"/>
 </Library>
