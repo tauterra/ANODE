@@ -4,6 +4,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -13,7 +14,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="build actions" Type="Folder"/>
 		<Item Name="LVCOOP" Type="Folder">
 			<Item Name="resources" Type="Folder">
 				<Item Name="LVCOOOP.mnu" Type="Document" URL="../LVCOOOP/LVCOOOP.mnu"/>
@@ -21,6 +21,7 @@
 			<Item Name="Util" Type="Folder">
 				<Item Name="map" Type="Folder">
 					<Item Name="Config File - Read Config File.vi" Type="VI" URL="../LVCOOOP/Util/map/Config File - Read Config File.vi"/>
+					<Item Name="Factory Pattern Starter Helper.vi" Type="VI" URL="../LVCOOOP/Util/map/Factory Pattern Starter Helper.vi"/>
 					<Item Name="Get From Map As Type.vim" Type="VI" URL="../LVCOOOP/Util/map/Get From Map As Type.vim"/>
 					<Item Name="Get Map Keys.vim" Type="VI" URL="../LVCOOOP/Util/map/Get Map Keys.vim"/>
 				</Item>
@@ -42,9 +43,11 @@
 				<Item Name="NIErrLog Log Provider.lvclass" Type="LVClass" URL="../LVCOOOP/Utility API/NIErrLog Log Provider/NIErrLog Log Provider.lvclass"/>
 			</Item>
 		</Item>
+		<Item Name="build actions" Type="Folder">
+			<Item Name="post-deply-user.lib.vi" Type="VI" URL="../build actions/post-deply-user.lib.vi"/>
+		</Item>
 		<Item Name="COPYRIGHT" Type="Document" URL="../COPYRIGHT"/>
 		<Item Name="LICENSE" Type="Document" URL="../LICENSE"/>
-		<Item Name="post-deply-user.lib.vi" Type="VI" URL="../build actions/post-deply-user.lib.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -86,7 +89,7 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
 				<Property Name="Bld_localDestDir" Type="Path">user.lib</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/post-deply-user.lib.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/build actions/post-deply-user.lib.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2AA1E9BD-0EBF-4EBC-830D-60BA555BE003}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">2</Property>
 				<Property Name="Bld_version.build" Type="Int">39</Property>
