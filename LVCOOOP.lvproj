@@ -14,7 +14,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="LVCOOP" Type="Folder">
+		<Item Name="LVCOOOP" Type="Folder">
 			<Item Name="resources" Type="Folder">
 				<Item Name="LVCOOOP.mnu" Type="Document" URL="../LVCOOOP/LVCOOOP.mnu"/>
 			</Item>
@@ -29,7 +29,7 @@
 					<Item Name="First Element of Set.vim" Type="VI" URL="../LVCOOOP/Util/set/First Element of Set.vim"/>
 				</Item>
 				<Item Name="Clear Errors - Ext.vi" Type="VI" URL="../LVCOOOP/Util/Clear Errors - Ext.vi"/>
-				<Item Name="LVOOP DVR Access Snippet.vi" Type="VI" URL="../LVCOOOP/Util/LVOOP DVR Access Snippet.vi"/>
+				<Item Name="DVR Access Snippet.vi" Type="VI" URL="../LVCOOOP/Util/DVR Access Snippet.vi"/>
 				<Item Name="Open VI Reference.vim" Type="VI" URL="../LVCOOOP/Util/Open VI Reference.vim"/>
 				<Item Name="String Join.vi" Type="VI" URL="../LVCOOOP/Util/String Join.vi"/>
 				<Item Name="Timestamp or now.vi" Type="VI" URL="../LVCOOOP/Util/Timestamp or now.vi"/>
@@ -38,7 +38,7 @@
 			<Item Name="State Machine API.lvlib" Type="Library" URL="../LVCOOOP/State Machine API/State Machine API.lvlib"/>
 			<Item Name="Utility API.lvlib" Type="Library" URL="../LVCOOOP/Utility API/Utility API.lvlib"/>
 		</Item>
-		<Item Name="LVCOOP Providers" Type="Folder">
+		<Item Name="LVCOOOP Providers" Type="Folder">
 			<Item Name="Utility API" Type="Folder">
 				<Item Name="NIErrLog Log Provider.lvclass" Type="LVClass" URL="../LVCOOOP/Utility API/NIErrLog Log Provider/NIErrLog Log Provider.lvclass"/>
 			</Item>
@@ -105,23 +105,23 @@
 				<Property Name="Source[0].itemID" Type="Str">{254CEA6E-8826-4EA1-86BC-F5AA2FAE0333}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVCOOP Providers/Utility API/NIErrLog Log Provider.lvclass</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVCOOOP Providers/Utility API/NIErrLog Log Provider.lvclass</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LVCOOP</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LVCOOOP</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LVCOOP Providers</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LVCOOOP Providers</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LVCOOP/resources/LVCOOOP.mnu</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LVCOOOP/resources/LVCOOOP.mnu</Property>
 				<Property Name="Source[4].lvfile" Type="Bool">true</Property>
 				<Property Name="Source[4].newName" Type="Str">dir.mnu</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
@@ -178,34 +178,34 @@
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVCOOP/resources</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVCOOOP/resources</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LVCOOP/Util</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LVCOOOP/Util</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LVCOOP/Lookup API.lvlib</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LVCOOOP/Lookup API.lvlib</Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LVCOOP/State Machine API.lvlib</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LVCOOOP/State Machine API.lvlib</Property>
 				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Library</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/LVCOOP/Utility API.lvlib</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/LVCOOOP/Utility API.lvlib</Property>
 				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Library</Property>
 				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/LVCOOP Providers</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/LVCOOOP Providers</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
