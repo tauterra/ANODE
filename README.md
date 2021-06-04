@@ -1,6 +1,6 @@
-# LV Common Objects for Object Oriented Programming (LVCOOOP)
+# Advanced Normative Object Definitions and Extensions (ANODE) for LabVIEW™
 
-LVCOOOP is a set of common objects that support building robust object oriented applications with LabVIEW(tm).
+ANODE is a set of common objects that support building robust object oriented applications with LabVIEW™.
 
 ## Lookup API
 
@@ -19,9 +19,9 @@ The Utility API includes a generic Logger implementation. A LabVIEW queue-based 
 ### Building from source
 
 1) Clone this repository
-2) Edit the `LVCOOOP - user.lib` source distribution to point to your `user.lib` directory
-3) Build the `LVCOOOP - user.lib` source distribution
+2) Edit the `ANODE - user.lib` source distribution to point to your `user.lib` directory
+3) Build the `ANODE - user.lib` source distribution
 
 
-\* *LabVIEW is a trademark of National Instruments Corporation*
+\* LabVIEW is a trademark of National Instruments. Neither TauTerra LLC, nor any software programs or other goods or services offered by TauTerra LLC, are affiliated with, endorsed by, or sponsored by National Instruments.
 
