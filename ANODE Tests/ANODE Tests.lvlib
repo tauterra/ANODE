@@ -18,9 +18,10 @@
 		<Item Name="Test Queue Log Provider.vi" Type="VI" URL="../Support API/Test Queue Log Provider.vi"/>
 	</Item>
 	<Item Name="Util" Type="Folder">
+		<Item Name="test_config.ini" Type="Document" URL="../Util/test_config.ini"/>
+		<Item Name="my_type.ctl" Type="VI" URL="../Util/my_type.ctl"/>
 		<Item Name="test get from map as type.vi" Type="VI" URL="../Util/test get from map as type.vi"/>
 		<Item Name="test map utils.vi" Type="VI" URL="../Util/test map utils.vi"/>
-		<Item Name="test_config.ini" Type="Document" URL="../Util/test_config.ini"/>
 	</Item>
 	<Item Name="State Machine API.lvlib" Type="Library" URL="../State Machine API/State Machine API.lvlib"/>
 </Library>

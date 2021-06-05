@@ -12,30 +12,31 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="LVCOOP" Type="Folder">
+		<Item Name="ANODE" Type="Folder">
 			<Item Name="resources" Type="Folder">
 				<Item Name="LVCOOOP.mnu" Type="Document" URL="../../LVCOOOP/resources/LVCOOOP.mnu"/>
 			</Item>
 			<Item Name="Util" Type="Folder">
 				<Item Name="Map" Type="Folder">
-					<Item Name="Config File - Read Config File.vi" Type="VI" URL="../../LVCOOOP/Util/Config File - Read Config File.vi"/>
-					<Item Name="Get From Map As Type.vim" Type="VI" URL="../../LVCOOOP/Util/Get From Map As Type.vim"/>
-					<Item Name="Get Map Keys.vim" Type="VI" URL="../../LVCOOOP/Util/Get Map Keys.vim"/>
+					<Item Name="Config File - Read Config File.vi" Type="VI" URL="../../ANODE/Util/map/Config File - Read Config File.vi"/>
+					<Item Name="Get From Map As Type.vim" Type="VI" URL="../../ANODE/Util/map/Get From Map As Type.vim"/>
+					<Item Name="Get Map Keys.vim" Type="VI" URL="../../ANODE/Util/map/Get Map Keys.vim"/>
 				</Item>
-				<Item Name="Clear Errors - Ext.vi" Type="VI" URL="../../LVCOOOP/Util/Clear Errors - Ext.vi"/>
-				<Item Name="Open VI Reference.vim" Type="VI" URL="../../LVCOOOP/Util/Open VI Reference.vim"/>
-				<Item Name="Timestamp or now.vi" Type="VI" URL="../../LVCOOOP/Util/Timestamp or now.vi"/>
+				<Item Name="Clear Errors - Ext.vi" Type="VI" URL="../../ANODE/Util/Clear Errors - Ext.vi"/>
+				<Item Name="Open VI Reference.vim" Type="VI" URL="../../ANODE/Util/Open VI Reference.vim"/>
+				<Item Name="String Join.vi" Type="VI" URL="../../ANODE/Util/String Join.vi"/>
+				<Item Name="Timestamp or now.vi" Type="VI" URL="../../ANODE/Util/Timestamp or now.vi"/>
 			</Item>
-			<Item Name="Lookup API.lvlib" Type="Library" URL="../../LVCOOOP/Lookup API/Lookup API.lvlib"/>
-			<Item Name="State Machine API.lvlib" Type="Library" URL="../../LVCOOOP/State Machine API/State Machine API.lvlib"/>
-			<Item Name="Utility API.lvlib" Type="Library" URL="../../LVCOOOP/Utility API/Utility API.lvlib"/>
+			<Item Name="Lookup API.lvlib" Type="Library" URL="../../ANODE/Lookup API/Lookup API.lvlib"/>
+			<Item Name="State Machine API.lvlib" Type="Library" URL="../../ANODE/State Machine API/State Machine API.lvlib"/>
+			<Item Name="Utility API.lvlib" Type="Library" URL="../../ANODE/Utility API/Utility API.lvlib"/>
 		</Item>
-		<Item Name="LVCOOP Providers" Type="Folder">
+		<Item Name="ANODE Providers" Type="Folder">
 			<Item Name="Utility API" Type="Folder">
-				<Item Name="NIErrLog Log Provider.lvclass" Type="LVClass" URL="../../LVCOOOP/Utility API/NIErrLog Log Provider/NIErrLog Log Provider.lvclass"/>
+				<Item Name="NIErrLog Log Provider.lvclass" Type="LVClass" URL="../../ANODE/Utility API/NIErrLog Log Provider/NIErrLog Log Provider.lvclass"/>
 			</Item>
 		</Item>
-		<Item Name="LVCOOOP Tests.lvlib" Type="Library" URL="../LVCOOOP Tests.lvlib"/>
+		<Item Name="ANODE Tests.lvlib" Type="Library" URL="../ANODE Tests.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>

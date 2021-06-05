@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="19008000">
-	<Property Name="NI.Lib.ContainingLib" Type="Str">LVCOOOP Tests.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../LVCOOOP Tests.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLib" Type="Str">ANODE Tests.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../ANODE Tests.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)O!!!*Q(C=\:8"=2MR$%6`-D\EKM0?-WI",;A&amp;N9!7&gt;062,@Q7V)*;1!NK13UIDR1MWZ&gt;M:G*0=D!J=+E0%HB,5J1USQ`J3&lt;?VMPSWL0N*N!R&lt;(JWF__0*`/&amp;;\P;OH=0&lt;L_7FO4_HD@I[PZUPC&gt;`(@[2_4@`Q`_8\L@F8CL\+6`GXZ8HVE(\[G@UW@OEXL$"DC96'KFOB&amp;XKB&amp;XKB&amp;\L2D7ZUIRP&gt;[)G?[)G?[)G?[)%?[)%?[)%?[,/C#VXI1A?J3&amp;YE+I)7!9L"I+BI#J[#J_!J?0CKAK@A+8A+HI+()3JY#J[#J_!J?*CGAK@A+8A+HI+(5*/E:E7(J_!BP!S0Y4%]BM@QE&amp;+'RQ#9:#;Q#1+'D..U$)`B-4RU:8A-D_%R0)9(NQS0Y4%]BM@Q-'7OCC@.K/DQ%%9*4]+4]#1]#1_BF@!E0!F0QJ0QE%Y*4]+41#1*E_!A+*G5$%C_*$Q*$Q]F0!F0QJ0Q*$SYZA\F8*F"-SI[0!&amp;0Q"0Q"$Q"$S%5]!1]!5`!%`!16A&amp;0Q"0Q"$Q"$[E5]!1]!5]!%C1FP9*AQ=2A5#!%0(TG;9GZ3ZYE-;P5BV&gt;^+.7(48W)V)&gt;$P?HKT62PEHLRV9OK8CTV)KB@4AWNBF%H55]?!X7FP7"H\)1&gt;M1/WRX&lt;9&amp;NO-K2]]](K^[H+Z[(Q_[X1[[8A][H!Y;,`@;\@&lt;;&lt;P&gt;;L0:0+["H^4(B8#`FZ\J`YF^UH`J@X!X[LP?RG7.@A%&lt;_4H&gt;!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
