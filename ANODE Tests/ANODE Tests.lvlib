@@ -20,8 +20,10 @@
 	<Item Name="Util" Type="Folder">
 		<Item Name="test_config.ini" Type="Document" URL="../Util/test_config.ini"/>
 		<Item Name="my_type.ctl" Type="VI" URL="../Util/my_type.ctl"/>
+		<Item Name="test split quoted string.vi" Type="VI" URL="../Util/test split quoted string.vi"/>
 		<Item Name="test get from map as type.vi" Type="VI" URL="../Util/test get from map as type.vi"/>
 		<Item Name="test map utils.vi" Type="VI" URL="../Util/test map utils.vi"/>
+		<Item Name="test substitute string.vi" Type="VI" URL="../Util/test substitute string.vi"/>
 	</Item>
 	<Item Name="State Machine API.lvlib" Type="Library" URL="../State Machine API/State Machine API.lvlib"/>
 </Library>

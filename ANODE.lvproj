@@ -33,6 +33,8 @@
 				<Item Name="String Join.vi" Type="VI" URL="../ANODE/Util/String Join.vi"/>
 				<Item Name="Open VI Reference.vim" Type="VI" URL="../ANODE/Util/Open VI Reference.vim"/>
 				<Item Name="Timestamp or now.vi" Type="VI" URL="../ANODE/Util/Timestamp or now.vi"/>
+				<Item Name="Split Quoted String.vi" Type="VI" URL="../ANODE/Util/Split Quoted String.vi"/>
+				<Item Name="Substitute String.vi" Type="VI" URL="../ANODE/Util/Substitute String.vi"/>
 			</Item>
 			<Item Name="Lookup API.lvlib" Type="Library" URL="../ANODE/Lookup API/Lookup API.lvlib"/>
 			<Item Name="State Machine API.lvlib" Type="Library" URL="../ANODE/State Machine API/State Machine API.lvlib"/>
