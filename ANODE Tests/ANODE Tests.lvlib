@@ -25,5 +25,9 @@
 		<Item Name="test map utils.vi" Type="VI" URL="../Util/test map utils.vi"/>
 		<Item Name="test substitute string.vi" Type="VI" URL="../Util/test substitute string.vi"/>
 	</Item>
+	<Item Name="Socket API" Type="Folder">
+		<Item Name="TCP Socket Server.vi" Type="VI" URL="../Socket Server API/TCP Socket Server.vi"/>
+		<Item Name="Echo Handler.lvclass" Type="LVClass" URL="../Socket Server API/Echo Handler/Echo Handler.lvclass"/>
+	</Item>
 	<Item Name="State Machine API.lvlib" Type="Library" URL="../State Machine API/State Machine API.lvlib"/>
 </Library>

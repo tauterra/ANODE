@@ -39,10 +39,16 @@
 			<Item Name="Lookup API.lvlib" Type="Library" URL="../ANODE/Lookup API/Lookup API.lvlib"/>
 			<Item Name="State Machine API.lvlib" Type="Library" URL="../ANODE/State Machine API/State Machine API.lvlib"/>
 			<Item Name="Utility API.lvlib" Type="Library" URL="../ANODE/Utility API/Utility API.lvlib"/>
+			<Item Name="Socket API.lvlib" Type="Library" URL="../ANODE/Socket API/Socket API.lvlib"/>
 		</Item>
 		<Item Name="ANODE Providers" Type="Folder">
 			<Item Name="Utility API" Type="Folder">
 				<Item Name="NIErrLog Log Provider.lvclass" Type="LVClass" URL="../ANODE/Utility API/NIErrLog Log Provider/NIErrLog Log Provider.lvclass"/>
+				<Item Name="Queue Log Provider.lvclass" Type="LVClass" URL="../ANODE/Utility API/Queue Log Provider/Queue Log Provider.lvclass"/>
+			</Item>
+			<Item Name="Socket API" Type="Folder">
+				<Item Name="TCP Socket Server.lvclass" Type="LVClass" URL="../ANODE/Socket API/TCP Socket Server/TCP Socket Server.lvclass"/>
+				<Item Name="TCP Connection.lvclass" Type="LVClass" URL="../ANODE/Socket API/TCP Connection/TCP Connection.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="build actions" Type="Folder">
@@ -69,11 +75,14 @@
 				<Item Name="Assert Real Floating-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Real Floating-Point Numeric Type.vim"/>
 				<Item Name="Assert Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Integer Type.vim"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 			</Item>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Enumerating Connection Handler.lvclass" Type="LVClass" URL="../ANODE/Socket API/Enumerating Connection Hanlder/Enumerating Connection Handler.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="ANODE - user.lib LV2019 x86" Type="Source Distribution">

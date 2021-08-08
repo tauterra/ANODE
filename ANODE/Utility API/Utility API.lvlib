@@ -44,9 +44,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		<Item Name="Utility - Map.mnu" Type="Document" URL="../Utility - Map.mnu"/>
 		<Item Name="Utility - Set.mnu" Type="Document" URL="../Utility - Set.mnu"/>
 	</Item>
-	<Item Name="Providers" Type="Folder">
-		<Item Name="Queue Log Provider.lvclass" Type="LVClass" URL="../Queue Log Provider/Queue Log Provider.lvclass"/>
-	</Item>
+	<Item Name="Providers" Type="Folder"/>
 	<Item Name="Services" Type="Folder">
 		<Item Name="Log Service.lvclass" Type="LVClass" URL="../Log Service/Log Service.lvclass"/>
 	</Item>
