@@ -14,6 +14,7 @@
 		<Item Name="Class B-D.lvclass" Type="LVClass" URL="../Lookup API/Class B-D.lvclass"/>
 	</Item>
 	<Item Name="Utility API" Type="Folder">
+		<Item Name="Test File Log Provider.vi" Type="VI" URL="../Support API/Test File Log Provider.vi"/>
 		<Item Name="Test NIErrLog Log Provider.vi" Type="VI" URL="../Support API/Test NIErrLog Log Provider.vi"/>
 		<Item Name="Test Queue Log Provider.vi" Type="VI" URL="../Support API/Test Queue Log Provider.vi"/>
 	</Item>
