@@ -23,6 +23,7 @@
 					<Item Name="Get Map Keys.vim" Type="VI" URL="../../ANODE/Util/map/Get Map Keys.vim"/>
 				</Item>
 				<Item Name="Clear Errors - Ext.vi" Type="VI" URL="../../ANODE/Util/Clear Errors - Ext.vi"/>
+				<Item Name="Compare Match Pattern.vi" Type="VI" URL="../../ANODE/Util/Compare Match Pattern.vi"/>
 				<Item Name="Open VI Reference.vim" Type="VI" URL="../../ANODE/Util/Open VI Reference.vim"/>
 				<Item Name="Split Quoted String.vi" Type="VI" URL="../../ANODE/Util/Split Quoted String.vi"/>
 				<Item Name="String Join.vi" Type="VI" URL="../../ANODE/Util/String Join.vi"/>

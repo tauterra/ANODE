@@ -35,6 +35,7 @@
 				<Item Name="Timestamp or now.vi" Type="VI" URL="../ANODE/Util/Timestamp or now.vi"/>
 				<Item Name="Split Quoted String.vi" Type="VI" URL="../ANODE/Util/Split Quoted String.vi"/>
 				<Item Name="Substitute String.vi" Type="VI" URL="../ANODE/Util/Substitute String.vi"/>
+				<Item Name="Compare Match Pattern.vi" Type="VI" URL="../ANODE/Util/Compare Match Pattern.vi"/>
 			</Item>
 			<Item Name="Lookup API.lvlib" Type="Library" URL="../ANODE/Lookup API/Lookup API.lvlib"/>
 			<Item Name="State Machine API.lvlib" Type="Library" URL="../ANODE/State Machine API/State Machine API.lvlib"/>
@@ -191,7 +192,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Source Distribution/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6D68E60F-54FD-412B-AD6E-5537564FA11F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2D809C77-AF72-4B20-9FE3-88E22681F216}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
